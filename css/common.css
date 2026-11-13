@@ -153,3 +153,37 @@ body {
 .login-form button:hover {
   background: #6c8cff;
 }
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 24px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 148px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
